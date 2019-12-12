@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "avr-config",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\WinAVR-20071221\\avr\\include\\"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\WinAVR-20071221\\bin\\avr-gcc.exe",
+            "cppStandard": "c++17",
+            "cStandard": "c99",
+            "compilerArgs": [
+                "-Wall ",
+                "-gdwarf-2 ",
+                "-Os ",
+                "-std=gnu99 ",
+                "-funsigned-char ",
+                "-funsigned-bitfields ",
+                "-fpack-struct ",
+                "-fshort-enums"
+            ],
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
